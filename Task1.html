@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0 auto;
+            padding: px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #4ecdc4;
+            padding: 0.4rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 160px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .featured-recipe {
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .featured-recipe img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .category {
+            background-color: white;
+            border-radius: 5px;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .category img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tasty Recipes</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="featured-recipe">
+            <h2>Featured Recipe: Creamy Tomato Pasta</h2>
+            <img src="tomatoPasta.avif" alt="Creamy Tomato Pasta">
+            <p>A delicious and easy pasta dish with a rich tomato cream sauce. 
+			Perfect for a quick weeknight dinner!</p>
+        </section>
+
+        <section class="categories">
+            <div class="category">
+                <h3>Breakfast</h3>
+                <img src="Breakfast.avif" alt="Breakfast">
+                <p>Start your day right with our delicious breakfast recipes.</p>
+            </div>
+            <div class="category">
+                <h3>Main Courses</h3>
+                <img src="mainCourse.avif" alt="Main Courses">
+                <p>Explore our collection of satisfying main course recipes.</p>
+            </div>
+            <div class="category">
+                <h3>Desserts</h3>
+                <img src="Desserts.avif" alt="Desserts">
+                <p>Indulge in our sweet and delightful dessert recipes.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
